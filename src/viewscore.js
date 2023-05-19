@@ -1,7 +1,8 @@
 import { updateListText, updateListLStorage } from './update_score.js';
 
 export default function displayTodos(todos) {
-  const todoList = document.getElementById('mytodo');
+  
+  const todoList = document.getElementById('myScores');
 
   todoList.className = 'todoList';
   todoList.innerHTML = '';
@@ -26,15 +27,6 @@ export default function displayTodos(todos) {
     desc2.style.display = 'flex';
     desc2.style.justifyContent = 'center';
     desc2.textContent = todo.score;
-
-    desc.addEventListener('click', () => {
-      updateListText(index, desc, todo, li);
-
-      li.addEventListener('submit', () => {
-        const editedtext = document.getElementById(`input${index}`).value;
-        updateListLStorage(index, todos, editedtext);
-      });
-    });
 
     li.appendChild(desc);
     li.appendChild(desc2);
