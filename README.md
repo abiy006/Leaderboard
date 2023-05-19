@@ -30,7 +30,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -105,7 +104,29 @@ Clone this repository to your desired folder:
 ```
   git clone https://github.com/abiy006/Leaderboard.git
 ```
+### Install
+
+<!-- Install this project with: -->
+
+Clone this repository to your desired folder:
+
+npm install
+
+### Usage
+
+To run the project, execute the following command:
+
+npm start
+
+### Run tests
+
+To run tests, run the following command:
+
+npm test
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- FUTURE FEATURES -->
 
