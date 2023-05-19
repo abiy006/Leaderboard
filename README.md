@@ -53,18 +53,6 @@
   </ul>
 </details>
 
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Abiy Hussen Aman**
-
-- GitHub: [@Abiy Github](https://github.com/abiy006)
-- Twitter: [@Abit Twitter](https://twitter.com/Abiy62463489)
-- LinkedIn: [@Abit LinkedIn](https://www.linkedin.com/in/abiy-hussen-aman-194587183/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -127,6 +115,17 @@ npm test
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abiy Hussen Aman**
+
+- GitHub: [@Abiy Github](https://github.com/abiy006)
+- Twitter: [@Abit Twitter](https://twitter.com/Abiy62463489)
+- LinkedIn: [@Abit LinkedIn](https://www.linkedin.com/in/abiy-hussen-aman-194587183/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
