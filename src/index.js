@@ -10,5 +10,4 @@ class TodoList {
 function myfunc() {
   return new TodoList(todos);
 }
-
 myfunc();
