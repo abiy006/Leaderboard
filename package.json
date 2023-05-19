@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.config.js --watch"
   },
   "keywords": [],
   "author": "",

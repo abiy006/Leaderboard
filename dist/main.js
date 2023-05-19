@@ -130,23 +130,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _vie
 
 /***/ }),
 
-/***/ "./src/update_score.js":
-/*!*****************************!*\
-  !*** ./src/update_score.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   updateListLStorage: () => (/* binding */ updateListLStorage),\n/* harmony export */   updateListText: () => (/* binding */ updateListText)\n/* harmony export */ });\nfunction updateListLStorage(index, todos, editedtext) {\n  todos[index].description = editedtext;\n  localStorage.setItem('todos', JSON.stringify(todos));\n}\n\nfunction updateListText(index, desc, todo, li) {\n  const form1 = document.createElement('form');\n  form1.id = `form${index}`;\n  const input2 = document.createElement('input');\n  input2.type = 'text';\n  input2.id = `input${index}`;\n  input2.value = todo.description;\n  li.replaceChild(form1, desc);\n  form1.appendChild(input2);\n}\n\n\n//# sourceURL=webpack://leaderboard/./src/update_score.js?");
-
-/***/ }),
-
 /***/ "./src/viewscore.js":
 /*!**************************!*\
   !*** ./src/viewscore.js ***!
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ displayTodos)\n/* harmony export */ });\n/* harmony import */ var _update_score_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./update_score.js */ \"./src/update_score.js\");\n\n\nfunction displayTodos(todos) {\n  \n  const todoList = document.getElementById('myScores');\n\n  todoList.className = 'todoList';\n  todoList.innerHTML = '';\n\n  const form = document.createElement('form');\n  form.style.display = 'flex';\n  form.style.width = '50%';\n\n  todos.forEach((todo, index) => {\n    const li = document.createElement('li');\n    li.className = 'mytodolist';\n    li.style.height = '3rem';\n    li.style.display = 'flex';\n    li.style.alignItems = 'center';\n    const desc = document.createElement('p');\n    desc.style.display = 'flex';\n    desc.style.justifyContent = 'center';\n    desc.setAttribute('class', 'addedListItem');\n    desc.textContent = todo.name;\n\n    const desc2 = document.createElement('p');\n    desc2.style.display = 'flex';\n    desc2.style.justifyContent = 'center';\n    desc2.textContent = todo.score;\n\n    li.appendChild(desc);\n    li.appendChild(desc2);\n\n    if (index % 2 === 0) {\n      li.style.backgroundColor = 'gray';\n    } else {\n      li.style.backgroundColor = '#ccc';\n    }\n    todoList.appendChild(li);\n  });\n}\n\n\n//# sourceURL=webpack://leaderboard/./src/viewscore.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ displayTodos)\n/* harmony export */ });\nfunction displayTodos(todos) {\n  const todoList = document.getElementById('myScores');\n\n  todoList.className = 'todoList';\n  todoList.innerHTML = '';\n\n  const form = document.createElement('form');\n  form.style.display = 'flex';\n  form.style.width = '50%';\n\n  todos.forEach((todo, index) => {\n    const li = document.createElement('li');\n    li.className = 'mytodolist';\n    li.style.height = '3rem';\n    li.style.display = 'flex';\n    li.style.alignItems = 'center';\n    const desc = document.createElement('p');\n    desc.style.display = 'flex';\n    desc.style.justifyContent = 'center';\n    desc.setAttribute('class', 'addedListItem');\n    desc.textContent = todo.name;\n\n    const desc2 = document.createElement('p');\n    desc2.style.display = 'flex';\n    desc2.style.justifyContent = 'center';\n    desc2.textContent = todo.score;\n\n    li.appendChild(desc);\n    li.appendChild(desc2);\n\n    if (index % 2 === 0) {\n      li.style.backgroundColor = 'gray';\n    } else {\n      li.style.backgroundColor = '#ccc';\n    }\n    todoList.appendChild(li);\n  });\n}\n\n\n//# sourceURL=webpack://leaderboard/./src/viewscore.js?");
 
 /***/ })
 
