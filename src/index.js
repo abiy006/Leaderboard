@@ -1,11 +1,9 @@
 import displayTodos from './viewtodo.js';
 import { todos } from './array_todo.js';
+import './style.css';
 
 class TodoList {
   constructor(todos) {
-    if (localStorage.getItem('todos')) {
-      todos = JSON.parse(localStorage.getItem('todos'));
-    }
     displayTodos(todos);
   }
 }
