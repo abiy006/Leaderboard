@@ -1,7 +1,4 @@
-import { updateListText, updateListLStorage } from './update_score.js';
-
 export default function displayTodos(todos) {
-  
   const todoList = document.getElementById('myScores');
 
   todoList.className = 'todoList';
