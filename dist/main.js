@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  padding: 0;\\r\\n  margin: 0;\\r\\n  box-sizing: border-box;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  background-color: white;\\r\\n}\\r\\n\\r\\nheader {\\r\\n  font-size: 5rem;\\r\\n}\\r\\n\\r\\n.body {\\r\\n  display: flex;\\r\\n  width: 100%;\\r\\n}\\r\\n\\r\\n.recent_scores {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  width: 50%;\\r\\n  margin: 3rem;\\r\\n}\\r\\n\\r\\n.scores_header {\\r\\n  display: flex;\\r\\n  gap: 1rem;\\r\\n  width: 80%;\\r\\n  justify-content: space-between;\\r\\n  margin-bottom: 1rem;\\r\\n}\\r\\n\\r\\nul {\\r\\n  list-style: none;\\r\\n  width: 80%;\\r\\n}\\r\\n\\r\\n.add_score {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 1rem;\\r\\n  margin: 3rem;\\r\\n  width: 25%;\\r\\n}\\r\\n\\r\\n.add_score input {\\r\\n  height: 2rem;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  padding: 0;\\r\\n  margin: 0;\\r\\n  box-sizing: border-box;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  background-color: white;\\r\\n}\\r\\n\\r\\nheader {\\r\\n  font-size: 5rem;\\r\\n}\\r\\n\\r\\n.body {\\r\\n  display: flex;\\r\\n  width: 100%;\\r\\n}\\r\\n\\r\\n.recent_scores {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  width: 50%;\\r\\n  margin: 3rem;\\r\\n}\\r\\n\\r\\n.scores_header {\\r\\n  display: flex;\\r\\n  gap: 1rem;\\r\\n  width: 100%;\\r\\n  justify-content: space-between;\\r\\n  margin-bottom: 1rem;\\r\\n}\\r\\n\\r\\n.scores_div {\\r\\n  height: 50vh;\\r\\n  overflow: scroll;\\r\\n  overflow-x: hidden;\\r\\n}\\r\\n\\r\\nul {\\r\\n  list-style: none;\\r\\n  width: 100%;\\r\\n}\\r\\n\\r\\n.add_score {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 1rem;\\r\\n  margin: 3rem;\\r\\n  width: 25%;\\r\\n}\\r\\n\\r\\nform {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 1rem;\\r\\n}\\r\\n\\r\\n.add_score input {\\r\\n  height: 2rem;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/array_score.js":
-/*!****************************!*\
-  !*** ./src/array_score.js ***!
-  \****************************/
+/***/ "./src/addMyScore.js":
+/*!***************************!*\
+  !*** ./src/addMyScore.js ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   todos: () => (/* binding */ todos),\n/* harmony export */   todos1: () => (/* binding */ todos1)\n/* harmony export */ });\nconst todos = [\n  { name: 'Name: ', score: 100 },\n  { name: 'Name: ', score: 20 },\n  { name: 'Name: ', score: 50 },\n  { name: 'Name: ', score: 78 },\n  { name: 'Name: ', score: 125 },\n  { name: 'Name: ', score: 77 },\n  { name: 'Name: ', score: 42 },\n];\nconst todos1 = [];\n\n//# sourceURL=webpack://leaderboard/./src/array_score.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst addMyScore = async (user, score, url) => {\n  const data = {\n    user,\n    score,\n  };\n  try {\n    const myscore = {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify(data),\n    };\n\n    const response = await fetch(url, myscore);\n    const result = await response.json();\n    return result;\n  } catch (error) { return error; }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addMyScore);\n\n//# sourceURL=webpack://leaderboard/./src/addMyScore.js?");
+
+/***/ }),
+
+/***/ "./src/fetchMyScores.js":
+/*!******************************!*\
+  !*** ./src/fetchMyScores.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _myAPI_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myAPI.js */ \"./src/myAPI.js\");\n/* harmony import */ var _showMyScores_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./showMyScores.js */ \"./src/showMyScores.js\");\n\n\n\nconst fetchMyScores = async () => {\n  try {\n    // const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0eBiwxCPZCs0dO5mbk2z/scores/';\n    const data = await fetch(_myAPI_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n    const result = await data.json();\n\n    (0,_showMyScores_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(result);\n    return result;\n  } catch (error) { return error; }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchMyScores);\n\n//# sourceURL=webpack://leaderboard/./src/fetchMyScores.js?");
 
 /***/ }),
 
@@ -126,17 +136,37 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _viewscore_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./viewscore.js */ \"./src/viewscore.js\");\n/* harmony import */ var _array_score_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./array_score.js */ \"./src/array_score.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\nclass TodoList {\n  constructor(todos) {\n    (0,_viewscore_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(todos);\n  }\n}\nfunction myfunc() {\n  return new TodoList(_array_score_js__WEBPACK_IMPORTED_MODULE_1__.todos);\n}\nmyfunc();\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _myAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./myAPI.js */ \"./src/myAPI.js\");\n/* harmony import */ var _myCustomGame_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./myCustomGame.js */ \"./src/myCustomGame.js\");\n/* harmony import */ var _fetchMyScores_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fetchMyScores.js */ \"./src/fetchMyScores.js\");\n/* harmony import */ var _addMyScore_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./addMyScore.js */ \"./src/addMyScore.js\");\n\n\n\n\n\n\nconst form = document.getElementById('form');\nconst btnRefresh = document.getElementById('refresh');\n\nfunction myfunc() {\n  return new _myCustomGame_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n}\n\nmyfunc();\n\nform.addEventListener('submit', (e) => {\n  e.preventDefault();\n  const user = form.name.value;\n  const score = form.score.value;\n  (0,_addMyScore_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(user, score, _myAPI_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n  form.reset();\n});\n\nbtnRefresh.addEventListener('click', () => {\n\n  window.addEventListener('DOMContentLoaded', (0,_fetchMyScores_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])());\n});\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/viewscore.js":
-/*!**************************!*\
-  !*** ./src/viewscore.js ***!
-  \**************************/
+/***/ "./src/myAPI.js":
+/*!**********************!*\
+  !*** ./src/myAPI.js ***!
+  \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ displayTodos)\n/* harmony export */ });\nfunction displayTodos(todos) {\n  const todoList = document.getElementById('myScores');\n\n  todoList.className = 'todoList';\n  todoList.innerHTML = '';\n\n  const form = document.createElement('form');\n  form.style.display = 'flex';\n  form.style.width = '50%';\n\n  todos.forEach((todo, index) => {\n    const li = document.createElement('li');\n    li.className = 'mytodolist';\n    li.style.height = '3rem';\n    li.style.display = 'flex';\n    li.style.alignItems = 'center';\n    const desc = document.createElement('p');\n    desc.style.display = 'flex';\n    desc.style.justifyContent = 'center';\n    desc.setAttribute('class', 'addedListItem');\n    desc.textContent = todo.name;\n\n    const desc2 = document.createElement('p');\n    desc2.style.display = 'flex';\n    desc2.style.justifyContent = 'center';\n    desc2.textContent = todo.score;\n\n    li.appendChild(desc);\n    li.appendChild(desc2);\n\n    if (index % 2 === 0) {\n      li.style.backgroundColor = 'gray';\n    } else {\n      li.style.backgroundColor = '#ccc';\n    }\n    todoList.appendChild(li);\n  });\n}\n\n\n//# sourceURL=webpack://leaderboard/./src/viewscore.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0eBiwxCPZCs0dO5mbk2z/scores/';\nconst URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/zGktR5MPKr72F9LLPBwL/scores/';\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (URL);\n\n//# sourceURL=webpack://leaderboard/./src/myAPI.js?");
+
+/***/ }),
+
+/***/ "./src/myCustomGame.js":
+/*!*****************************!*\
+  !*** ./src/myCustomGame.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _fetchMyScores_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fetchMyScores.js */ \"./src/fetchMyScores.js\");\n\n\nclass MyCustomGame {\n  constructor() {\n    // this.load = window.addEventListener('DOMContentLoaded', fetchMyScores.bind(this));\n    this.load = window.addEventListener('DOMContentLoaded', _fetchMyScores_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].bind(this));\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyCustomGame);\n\n//# sourceURL=webpack://leaderboard/./src/myCustomGame.js?");
+
+/***/ }),
+
+/***/ "./src/showMyScores.js":
+/*!*****************************!*\
+  !*** ./src/showMyScores.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst showMyScores = async (data) => {\n\n\n  const myScoresList = document.getElementById('myScores');\n  myScoresList.innerHTML = '';\n\n  await data.result.forEach((element, index) => {\n\n    const li = document.createElement('li');\n    li.className = 'mytodolist';\n    li.style.height = '3rem';\n    li.style.display = 'flex';\n    li.style.alignItems = 'center';\n    const desc = document.createElement('p');\n    desc.style.display = 'flex';\n    desc.style.justifyContent = 'center';\n    desc.setAttribute('class', 'addedListItem');\n    desc.textContent = `${element.user}: `;\n\n    const desc2 = document.createElement('p');\n    desc2.style.display = 'flex';\n    desc2.style.justifyContent = 'center';\n    desc2.textContent = element.score;\n\n    li.appendChild(desc);\n    li.appendChild(desc2);\n\n    if (index % 2 === 0) {\n      li.style.backgroundColor = 'gray';\n    } else {\n      li.style.backgroundColor = '#ccc';\n    }\n    myScoresList.appendChild(li);\n  });\n\n  \n\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (showMyScores);\n\n//# sourceURL=webpack://leaderboard/./src/showMyScores.js?");
 
 /***/ })
 

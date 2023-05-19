@@ -27,14 +27,20 @@ header {
 .scores_header {
   display: flex;
   gap: 1rem;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
+.scores_div {
+  height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
-  width: 80%;
+  width: 100%;
 }
 
 .add_score {
@@ -43,6 +49,12 @@ ul {
   gap: 1rem;
   margin: 3rem;
   width: 25%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .add_score input {
