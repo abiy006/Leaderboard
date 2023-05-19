@@ -55,6 +55,7 @@
 
 <!-- Features -->
 
+
 ### Key Features <a name="key-features"></a>
 
 - **Leaderboard is configured**
@@ -111,7 +112,6 @@ npm start
 To run tests, run the following command:
 
 npm test
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
