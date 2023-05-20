@@ -25,7 +25,7 @@ const showMyScores = async (data) => {
 
     if (index % 2 === 0) {
       li.style.backgroundColor = '#e9e9f9';
-    } 
+    }
     myScoresList.appendChild(li);
   });
 };

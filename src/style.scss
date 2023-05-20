@@ -1,27 +1,6 @@
-:root {
-  --odd: 1;
-  --h2-color: #6070ff;
-  --white-color: #444;
-  --black-color: #000;
-  --html-color: #602;
-  --body-color: #760;
-  --color1-color: greenyellow;
-  --color2-color: #0ff;
-  --p-color: #344563;
-  --bg-color: #e5e5e5;
-}
-@import "bootstrap";
+$primary:teal;
 
-/* ------- customize primary button color -------- */   
-$mynewcolor:teal;
-
-.btn-primary {
-    @include button-variant($mynewcolor, darken($mynewcolor, 7.5%), darken($mynewcolor, 10%), lighten($mynewcolor,5%), lighten($mynewcolor, 10%), darken($mynewcolor,30%));
-}
-
-.btn-outline-primary {
-    @include button-outline-variant($mynewcolor, #222222, lighten($mynewcolor,5%), $mynewcolor);
-}
+@import "~bootstrap/scss/bootstrap";
 
 * {
   padding: 0;
