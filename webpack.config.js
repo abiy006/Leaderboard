@@ -19,18 +19,9 @@ module.exports = {
       {
         test: /\.s[ac]ss$/,
         use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-          },
-          {
-            loader: "sass-loader",
-            options: {
-              implementation: require("sass"),
-            },
-          },
+          'style-loader', // 3. Inject styles into DOM
+          'css-loader', // 2. Turns css into commonjs
+          'sass-loader' //1. Turns sass into css
         ],
       },
     ],
