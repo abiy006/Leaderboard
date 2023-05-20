@@ -8,6 +8,7 @@ const showMyScores = async (data) => {
     li.style.height = '3rem';
     li.style.display = 'flex';
     li.style.alignItems = 'center';
+    li.setAttribute('class', 'list-group-item list-group-item-action');
     const desc = document.createElement('p');
     desc.style.display = 'flex';
     desc.style.justifyContent = 'center';
@@ -23,10 +24,8 @@ const showMyScores = async (data) => {
     li.appendChild(desc2);
 
     if (index % 2 === 0) {
-      li.style.backgroundColor = 'gray';
-    } else {
-      li.style.backgroundColor = '#ccc';
-    }
+      li.style.backgroundColor = '#e9e9f9';
+    } 
     myScoresList.appendChild(li);
   });
 };

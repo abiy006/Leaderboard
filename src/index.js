@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import URL from './myAPI.js';
 import MyCustomGame from './myCustomGame.js';
 import fetchMyScores from './fetchMyScores.js';
