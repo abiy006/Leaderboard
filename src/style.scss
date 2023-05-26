@@ -1,3 +1,7 @@
+$primary:teal;
+
+@import "bootstrap";
+
 * {
   padding: 0;
   margin: 0;
@@ -27,14 +31,20 @@ header {
 .scores_header {
   display: flex;
   gap: 1rem;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
+.scores_div {
+  height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
-  width: 80%;
+  width: 100%;
 }
 
 .add_score {
@@ -45,6 +55,8 @@ ul {
   width: 25%;
 }
 
-.add_score input {
-  height: 2rem;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }

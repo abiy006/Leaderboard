@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="Images\html_css.png" alt="logo" width="140"  height="auto" />
+  <img src="./html_css.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Leaderboard</b></h3>
@@ -17,7 +17,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -30,7 +29,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -54,19 +52,8 @@
   </ul>
 </details>
 
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Abiy Hussen Aman**
-
-- GitHub: [@Abiy Github](https://github.com/abiy006)
-- Twitter: [@Abit Twitter](https://twitter.com/Abiy62463489)
-- LinkedIn: [@Abit LinkedIn](https://www.linkedin.com/in/abiy-hussen-aman-194587183/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -74,13 +61,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://abiy006.github.io/Leaderboard/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -105,6 +85,38 @@ Clone this repository to your desired folder:
 ```
   git clone https://github.com/abiy006/Leaderboard.git
 ```
+### Install
+
+<!-- Install this project with: -->
+
+Clone this repository to your desired folder:
+
+npm install
+
+### Usage
+
+To run the project, execute the following command:
+
+npm start
+
+### Run tests
+
+To run tests, run the following command:
+
+npm test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abiy Hussen Aman**
+
+- GitHub: [@Abiy Github](https://github.com/abiy006)
+- Twitter: [@Abit Twitter](https://twitter.com/Abiy62463489)
+- LinkedIn: [@Abit LinkedIn](https://www.linkedin.com/in/abiy-hussen-aman-194587183/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

@@ -1,13 +1,26 @@
-import displayTodos from './viewscore.js';
-import { todos } from './array_score.js';
-import './style.css';
+import './style.scss';
+import URL from './myAPI.js';
+import MyCustomGame from './myCustomGame.js';
+import fetchMyScores from './fetchMyScores.js';
+import addMyScore from './addMyScore.js';
 
-class TodoList {
-  constructor(todos) {
-    displayTodos(todos);
-  }
-}
+const form = document.getElementById('form');
+const btnRefresh = document.getElementById('refresh');
+
 function myfunc() {
-  return new TodoList(todos);
+  return new MyCustomGame();
 }
+
 myfunc();
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const user = form.name.value;
+  const score = form.score.value;
+  addMyScore(user, score, URL);
+  form.reset();
+});
+
+btnRefresh.addEventListener('click', () => {
+  window.addEventListener('DOMContentLoaded', fetchMyScores());
+});
